@@ -12,8 +12,8 @@ const Navbar = ({ cartCount, onCartClick }: NavbarProps) => {
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 glass-surface border-b border-border/50">
-      <div className="container mx-auto px-3 sm:px-4 py-2.5 sm:py-3 flex items-center justify-between">
-        <a href="#" className="font-heading text-xl sm:text-2xl font-bold text-primary flex items-center gap-1.5 sm:gap-2">
+      <div className="container mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="#" className="font-heading text-2xl font-bold text-primary flex items-center gap-2">
           💖 GlowGift
         </a>
 

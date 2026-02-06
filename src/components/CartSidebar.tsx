@@ -35,7 +35,7 @@ const CartSidebar = ({
       <div className="fixed inset-0 bg-foreground/20 z-50" onClick={onClose} />
 
       {/* Sidebar */}
-      <div className="fixed top-0 right-0 h-full w-full sm:max-w-md bg-card z-50 shadow-2xl animate-slide-in-right flex flex-col">
+      <div className="fixed top-0 right-0 h-full w-full max-w-md bg-card z-50 shadow-2xl animate-slide-in-right flex flex-col">
         {/* Header */}
         <div className="flex items-center justify-between p-5 border-b border-border">
           <h3 className="font-heading text-xl font-bold text-card-foreground flex items-center gap-2">
