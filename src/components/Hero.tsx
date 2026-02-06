@@ -2,7 +2,7 @@ import heroImage from "@/assets/hero-gifts.jpg";
 
 const Hero = () => {
   return (
-    <section className="relative pt-28 pb-20 md:pt-36 md:pb-28 overflow-hidden">
+    <section className="relative pt-24 pb-16 sm:pt-28 sm:pb-20 md:pt-36 md:pb-28 overflow-hidden">
       {/* Background image with overlay */}
       <div className="absolute inset-0 z-0">
         <img
@@ -13,20 +13,20 @@ const Hero = () => {
         <div className="absolute inset-0 bg-background/70 dark:bg-background/85" />
       </div>
 
-      <div className="container mx-auto px-4 text-center relative z-10">
+      <div className="container mx-auto px-4 sm:px-6 text-center relative z-10">
         <div className="animate-fade-in">
-          <span className="inline-block text-5xl mb-4 animate-float">💝</span>
+          <span className="inline-block text-4xl sm:text-5xl mb-3 sm:mb-4 animate-float">💝</span>
         </div>
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-in text-foreground leading-tight">
+        <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold mb-4 sm:mb-6 animate-fade-in text-foreground leading-tight">
           Love, Delivered{" "}
           <span className="text-primary">Beautifully</span>
         </h1>
-        <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.2s" }}>
+        <p className="text-base sm:text-lg md:text-xl text-muted-foreground mb-6 sm:mb-8 max-w-2xl mx-auto animate-fade-in px-2" style={{ animationDelay: "0.2s" }}>
           Premium & personalized gifts for every occasion — crafted with care, wrapped with love
         </p>
         <a
           href="#products"
-          className="inline-block gradient-cta text-primary-foreground px-8 py-3.5 rounded-full font-semibold text-lg glow-shadow hover:opacity-90 transition-all duration-300 hover:scale-105 animate-fade-in"
+          className="inline-block gradient-cta text-primary-foreground px-6 sm:px-8 py-3 sm:py-3.5 rounded-full font-semibold text-base sm:text-lg glow-shadow hover:opacity-90 transition-all duration-300 hover:scale-105 animate-fade-in"
           style={{ animationDelay: "0.4s" }}
         >
           Explore Gifts ✨

@@ -35,21 +35,21 @@ const CheckoutSection = ({ items, discount, onOrderPlaced }: CheckoutSectionProp
   };
 
   return (
-    <section id="checkout" className="py-16 md:py-24">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-3">
+    <section id="checkout" className="py-12 sm:py-16 md:py-24">
+      <div className="container mx-auto px-4 sm:px-6">
+        <div className="text-center mb-8 sm:mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-2 sm:mb-3">
             Checkout 🛍️
           </h2>
-          <p className="text-muted-foreground text-lg">
+          <p className="text-muted-foreground text-base sm:text-lg">
             Almost there! Fill in your delivery details
           </p>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-5 gap-6 sm:gap-8 max-w-5xl mx-auto">
           {/* Form */}
-          <form onSubmit={handleSubmit} className="lg:col-span-3 space-y-4">
-            <h3 className="font-heading text-xl font-bold text-foreground mb-2">
+          <form onSubmit={handleSubmit} className="lg:col-span-3 space-y-3 sm:space-y-4">
+            <h3 className="font-heading text-lg sm:text-xl font-bold text-foreground mb-1 sm:mb-2">
               Delivery Details
             </h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

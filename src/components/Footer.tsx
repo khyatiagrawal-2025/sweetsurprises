@@ -2,12 +2,12 @@ const Footer = () => {
   return (
     <>
       {/* CTA Banner */}
-      <section className="py-20 gradient-romantic text-center">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+      <section className="py-12 sm:py-20 gradient-romantic text-center">
+        <div className="container mx-auto px-4 sm:px-6">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground mb-3 sm:mb-4">
             Made with <span className="heart-pulse">💖</span>
           </h2>
-          <p className="text-muted-foreground text-lg max-w-lg mx-auto">
+          <p className="text-muted-foreground text-base sm:text-lg max-w-lg mx-auto">
             Every gift tells a story. Thank you for choosing GlowGift ✨
           </p>
         </div>
